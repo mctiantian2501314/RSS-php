@@ -176,11 +176,5 @@ $xml = str_replace('</encoded>', '</content:encoded>', $xml);
 
 echo $xml;
 
-// 输出json GET json 返回json内容
-if (isset($_GET['json']) || isset($_SERVER['HTTP_ACCEPT']) && strpos($_SERVER['HTTP_ACCEPT'], 'application/json') !== false) {
-    header('Content-Type: application/json; charset=utf-8');
-    $rssObj = simplexml_load_string($rss->asXML());
-    $jsonData = json_encode($rssObj);
-    echo $jsonData;
-}
+
 ?>
