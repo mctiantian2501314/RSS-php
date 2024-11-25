@@ -1,6 +1,8 @@
 <?php
 /*
 作者声明：dy_天天的鸟蛋蛋
+仓库首页:https://github.com/mctiantian2501314
+仓库地址https://github.com/mctiantian2501314/RSS-php
 代码是个人写的。
 中途有些地方用的AI(豆包, kimi)
 php新人可能写的不好。
